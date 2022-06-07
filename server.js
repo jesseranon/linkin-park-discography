@@ -400,7 +400,7 @@ const LINKIN_PARK_DISCOGRAPHY = {
 
 
 app.get('/', (request, response) => {
-    response.send('Hello world!');
+    response.send('Hello world!  Visit /info for how to use this API');
 });
 
 app.get('/info', (request, response) => {
