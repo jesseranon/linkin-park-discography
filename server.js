@@ -404,7 +404,11 @@ app.get('/', (request, response) => {
 });
 
 app.get('/info', (request, response) => {
-    response.send('<h1>Linkin Park Discography</h1>');
+    response.send(`<h1>Linkin Park Discography</h1>
+    
+    <h2>How to use:</h2>
+    
+    <p>use the GET method on endpoint /api/:album where :album is the name of a Linkin Park album.</p>`);
 });
 
 app.get('/api/:album', (request, response) => {
