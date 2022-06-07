@@ -1,0 +1,1 @@
+Information for Linkin Park's discography
